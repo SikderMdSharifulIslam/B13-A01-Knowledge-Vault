@@ -45,6 +45,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.btn-green-small:hover{
+    color: #001931;
+    background-color: #F95555;
+}
 .btn-green-large{
     background-color: #30B868;
     font-size: 16px;
@@ -55,6 +59,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.btn-green-large:hover{
+    color: #001931;
+    background-color: #F95555;
+}
 .btn-transparent{
     background-color: transparent;
     font-size: 16px;
@@ -63,7 +71,12 @@
     padding: 16.5px 16px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
+    border: none;
     cursor: pointer;
+}
+.btn-transparent:hover{
+    color: #001931;
+    background-color: #30B868;
 }
 
 .text{
