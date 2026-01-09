@@ -10,12 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="inter">
     <header>
-        <nav>
+        <!-- Navbar Start -->
+        <nav class="container">
             <div class="logo">
                 <img src="./assets/logo-navbar.png" alt="Knowledge Vault Logo">
             </div>
@@ -28,6 +32,35 @@
                 <button class="btn-green-small">Get Early Access</button>
             </div>
         </nav>
+        <!-- Navbar End -->
+
+        <!-- Banner Start -->
+        <section id="banner">
+            <div class="banner-content container">
+                <p class="banner-notice text-green">
+                    <span class="notice">
+                        <img src="./assets/group-5.png" alt="">
+                        Early Access Now Open
+                    </span>
+                </p>
+                <h1>
+                    <span class="text-white">
+                        Structured Thinking,
+                    </span>
+                    <br>
+                    <span class="text-green">Not Just Note-Taking.</span>
+                </h1>
+                <p class="banner-text">A private space to store notes, links, and learning summaries — designed to 
+                    <br>
+                    help you think clearly, connect ideas, and turn learning into long-term knowledge.
+                <p>
+                <div>
+                    <button class="btn-green-large banner-btn-1">Start Building Your Vault <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="btn-transparent"><i class="fa-solid fa-play"></i> See How It Works</button>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
     </header>
 </body>
 </html>
