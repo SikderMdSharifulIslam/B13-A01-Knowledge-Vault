@@ -135,7 +135,9 @@ nav .menu a{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 116px 120px 180px;
+    /* padding: 116px 120px 180px; */
+    padding-top: 116px;
+    padding-bottom: 180px;
 }
 #banner .banner-content{
     margin: 0 auto;
@@ -240,3 +242,27 @@ li{
     margin-bottom: 16px;
 }
 /* Knowledge Section End */
+
+/* think section start */
+#think{
+    margin-bottom: 120px;
+}
+#think .think-content{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.think-content h2{
+    margin-bottom: 16px;
+}
+.think-content .think-p{
+    margin-bottom: 24px;
+}
+.think-btn{
+    margin-bottom: 16px;
+}
+/* think-more section end */
