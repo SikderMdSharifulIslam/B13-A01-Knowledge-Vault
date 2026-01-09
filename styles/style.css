@@ -208,3 +208,35 @@ nav .menu a{
     margin-bottom: 16px;
 }
 /* Card Section End */
+
+/* Knowledge Section Start */
+#knowledge{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#knowledge .knowledge-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+}
+.knowledge-img{
+    max-width: 600px;
+    max-height: 600px;
+}
+.knowledge-img img{
+    width: 100%;
+}
+.knowledge-text h2, .sol{
+    margin-bottom: 16px;
+}
+.knowledge-text p{
+    margin-bottom: 40px;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+/* Knowledge Section End */
